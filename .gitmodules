@@ -1,0 +1,4 @@
+[submodule "odoo"]
+	path = odoo
+	url = https://github.com/brokemeisteratwork/odoo.git
+	branch = 8.0

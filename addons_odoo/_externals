@@ -1,0 +1,51 @@
+
+#### available addons folders ####
+######## ODOO addons ########
+addons:addons/
+
+#### LOADING MODULES ####
+# Authentifizierung
+module:auth_signup
+module:auth_crypt
+
+# Basis report
+module:report
+module:base_iban
+module:base_vat
+module:base_action_rule
+module:base_setup
+module:base_import
+module:calendar
+module:decimal_precision
+module:resource
+
+#Extra Werkzeuge
+module:im_chat
+module:edi
+module:fetchmail
+module:share
+module:document
+
+# Technische Einstellungen
+module:board
+module:bus
+
+# Web
+module:web
+module:web_calendar
+module:web_diagram
+module:web_gantt
+module:web_graph
+module:web_kanban
+module:web_kanban_gauge
+module:web_kanban_sparkline
+module:web_view_editor
+
+# Website
+module:website
+module:website_blog
+module:website_event
+module:website_report
+module:website_sale
+module:website_sale_delivery
+module:website_mail
