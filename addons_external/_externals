@@ -1,0 +1,33 @@
+
+#### available addons folders ####
+######## OCA ########
+addons:MadsackMediaStore/server-tools/
+addons:MadsackMediaStore/web/
+addons:MadsackMediaStore/website/
+
+#### LOADING MODULES ####
+# server-tools
+module:auth_admin_passkey
+module:base_optional_quick_create
+module:cron_run_manually
+module:dbfilter_from_header
+module:disable_openerp_online
+module:fetchmail_notify_error_to_sender
+module:scheduler_error_mailer
+
+# web
+module:support_branding
+module:web_easy_switch_company
+module:web_environment_ribbon
+module:web_hide_db_manager_link
+module:web_search_with_and
+
+#### website ####
+module:website_cookie_notice
+module:website_legal_page
+module:website_logo
+module:website_menu_by_user_status
+module:website_no_crawler
+module:website_slides
+module:website_snippet_marginless_gallery
+module:website_event_register_free
