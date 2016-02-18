@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+<data>
+
+<!--
+     Theme Selector
+-->
+
+    <template id="themes_svlaatzen" inherit_id="website.themes">
+        <xpath expr="//div[@id='themes-list']" position="inside">
+            <div class="col-md-4">
+                <div class="well text-center">
+                  <div class="image">
+                    <img class="img-responsive" src="/website/static/src/img/bootswatch/amelia_thumbnail.png" alt="SV Laatzen"/>
+                  </div>
+                  <div class="options">
+                    <h3>SV Laatzen</h3>
+                    <p>Theme für den Schützenverein Laatzen</p>
+                    <a class="btn btn-info" href="/website/theme_change?theme_id=theme_svlaatzen.theme_svlaatzen">Apply</a>
+                  </div>
+                </div>
+            </div>
+        </xpath>
+    </template>
+
+<!--
+     All Default Themes
+-->
+
+    <template id="theme_svlaatzen" name="SV Laatzen" inherit_id="website.theme" active="False" customize_show="True">
+        <xpath expr="//link[@id='bootstrap_css']" position="replace">
+            <link rel='stylesheet' href='/theme_svlaatzen/static/css/bootstrap.min.css' t-ignore="true"/>
+        </xpath>
+    </template>
+
+</data>
+</openerp>
