@@ -19,6 +19,8 @@ module:calendar
 module:decimal_precision
 module:resource
 
+module:hr
+
 #Extra Werkzeuge
 module:im_chat
 module:edi
@@ -40,6 +42,7 @@ module:web_kanban
 module:web_kanban_gauge
 module:web_kanban_sparkline
 module:web_view_editor
+module:web_tests
 
 # Website
 module:website
