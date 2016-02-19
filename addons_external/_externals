@@ -1,9 +1,10 @@
 
 #### available addons folders ####
 ######## OCA ########
-addons:MadsackMediaStore/server-tools/
-addons:MadsackMediaStore/web/
-addons:MadsackMediaStore/website/
+addons:OCA/server-tools/
+addons:OCA/web/
+addons:OCA/website/
+addons:Elico-Corp/odoo-addons/
 
 #### LOADING MODULES ####
 # server-tools
@@ -31,3 +32,5 @@ module:website_no_crawler
 module:website_slides
 module:website_snippet_marginless_gallery
 module:website_event_register_free
+
+module:website_remove_powered_by_odoo

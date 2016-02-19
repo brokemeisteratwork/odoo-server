@@ -17,7 +17,7 @@ import os, shutil, subprocess
 # file fore loading modules
 filelist = "_externals"
 # location where all repositories are location (recommaned sibiling folder to your odoo project)
-base_path = '../../_externals/'
+base_path = '../../odoo-externals/'
 # locations with modules which should be ignored bei default, e.g. ignore default addons from odoo
 ignore_addons_path = ['../addons_odoo/', '../odoo/openerp/addons/']
 # arguments for the rsync
