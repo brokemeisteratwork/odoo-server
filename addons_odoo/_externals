@@ -53,3 +53,4 @@ module:website_sale
 module:website_sale_delivery
 module:website_mail
 module:website_crm_partner_assign
+module:website_hr
